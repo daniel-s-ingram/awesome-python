@@ -335,7 +335,7 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
 *Libraries for storing and parsing configuration options.*
 
 * [config](https://www.red-dove.com/config-doc/) - Hierarchical config from the author of [logging](https://docs.python.org/3/library/logging.html).
-* [ConfigObj](http://www.voidspace.org.uk/python/configobj.html) - INI file parser with validation.
+* [ConfigObj](https://github.com/DiffSK/configobj) - INI file parser with validation.
 * [ConfigParser](https://docs.python.org/3/library/configparser.html) - (Python standard library) INI file parser.
 * [profig](http://profig.readthedocs.org/en/default/) - Config from multiple formats with value conversion.
 * [python-decouple](https://github.com/henriquebastos/python-decouple) - Strict separation of settings from code.
@@ -343,7 +343,6 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
 ## Cryptography
 
 * [cryptography](https://cryptography.io/en/latest/) - A package designed to expose cryptographic primitives and recipes to Python developers.
-* [hashids](https://github.com/davidaurelio/hashids-python) - Implementation of [hashids](http://hashids.org) in Python.
 * [Paramiko](http://www.paramiko.org/) - A Python (2.6+, 3.3+) implementation of the SSHv2 protocol, providing both client and server functionality.
 * [Passlib](https://passlib.readthedocs.io/en/stable/) - Secure password storage/hashing library, very high level.
 * [PyNacl](https://github.com/pyca/pynacl) - Python binding to the Networking and Cryptography (NaCl) library.
@@ -640,6 +639,7 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
 * [PyGObject](https://wiki.gnome.org/Projects/PyGObject) - Python Bindings for GLib/GObject/GIO/GTK+ (GTK+3).
 * [PyQt](https://riverbankcomputing.com/software/pyqt/intro) - Python bindings for the [Qt](https://www.qt.io/) cross-platform application and UI framework, with support for both Qt v4 and Qt v5 frameworks.
 * [PySide](https://wiki.qt.io/PySide) - Python bindings for the [Qt](http://www.qt.io/) cross-platform application and UI framework, supporting the Qt v4 framework.
+* [PySimpleGUI](https://github.com/MikeTheWatchGuy/PySimpleGUI) - Wrapper for tkinter that creates a more Python-like interface for beginner and intermediate level custom GUIs.
 * [pywebview](https://github.com/r0x0r/pywebview/) - A lightweight cross-platform native wrapper around a webview component that allows to display HTML content in its own native dedicated window.
 * [Tkinter](https://wiki.python.org/moin/TkInter) - Tkinter is Python's de-facto standard GUI package.
 * [Toga](https://github.com/pybee/toga) - A Python native, OS native GUI toolkit.
@@ -741,7 +741,7 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
 * [PyPy](https://bitbucket.org/pypy/pypy) - Implementation of the Python programming language written in RPython and translated into C. PyPy focuses on speed, efficiency and compatibility with the original CPython interpreter. The interpreter uses black magic to make Python very fast without having to add in additional type information.
 * [PySec](https://github.com/ebranca/owasp-pysec) - Hardened version of python that makes it easier for security professionals and developers to write applications more resilient to attacks and manipulations.
 * [Pyston](https://github.com/dropbox/pyston) - A Python implementation built using LLVM and modern JIT techniques with the goal of achieving good performance.
-* [Stackless Python](https://bitbucket.org/stackless-dev/stackless/wiki/Home) - An enhanced version of the Python programming language which allows programmers to reap the benefits of thread-based programming without the performance and complexity problems associated with conventional threads.
+* [Stackless Python](https://github.com/stackless-dev/stackless/wiki) - An enhanced version of the Python programming language which allows programmers to reap the benefits of thread-based programming without the performance and complexity problems associated with conventional threads.
 
 ## Interactive Interpreter
 
@@ -1039,7 +1039,7 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
     * [tablib](https://github.com/kennethreitz/tablib) - A module for Tabular Datasets in XLS, CSV, JSON, YAML.
 * Office
     * [Marmir](https://github.com/brianray/mm) - Takes Python data structures and turns them into spreadsheets.
-    * [openpyxl](https://openpyxl.readthedocs.io/en/default/) - A library for reading and writing Excel 2010 xlsx/xlsm/xltx/xltm files.
+    * [openpyxl](https://openpyxl.readthedocs.io/en/stable/) - A library for reading and writing Excel 2010 xlsx/xlsm/xltx/xltm files.
     * [pyexcel](https://github.com/pyexcel/pyexcel) - Providing one API for reading, manipulating and writing csv, ods, xls, xlsx and xlsm files.
     * [python-docx](https://github.com/python-openxml/python-docx) - Reads, queries and modifies Microsoft Word 2007/2008 docx files.
     * [python-pptx](https://github.com/scanny/python-pptx) - Python library for creating and updating PowerPoint (.pptx) files.
@@ -1140,6 +1140,7 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
     * [difflib](https://docs.python.org/3/library/difflib.html) - (Python standard library) Helpers for computing deltas.
     * [ftfy](https://github.com/LuminosoInsight/python-ftfy) - Makes Unicode text less broken and more consistent automagically.
     * [fuzzywuzzy](https://github.com/seatgeek/fuzzywuzzy) - Fuzzy String Matching.
+    * [hashids](https://github.com/davidaurelio/hashids-python) - Implementation of [hashids](http://hashids.org) in Python.
     * [Levenshtein](https://github.com/ztane/python-Levenshtein/) - Fast computation of Levenshtein distance and string similarity.
     * [pangu.py](https://github.com/vinta/pangu.py) - Spacing texts for CJK and alphanumerics.
     * [pyfiglet](https://github.com/pwaller/pyfiglet) - An implementation of figlet written in Python.
@@ -1157,7 +1158,7 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
     * [phonenumbers](https://github.com/daviddrysdale/python-phonenumbers) - Parsing, formatting, storing and validating international phone numbers.
     * [PLY](http://www.dabeaz.com/ply/) - Implementation of lex and yacc parsing tools for Python.
     * [Pygments](http://pygments.org/) - A generic syntax highlighter.
-    * [pyparsing](http://pyparsing.wikispaces.com/) - A general purpose framework for generating parsers.
+    * [pyparsing](https://github.com/pyparsing/pyparsing) - A general purpose framework for generating parsers.
     * [python-nameparser](https://github.com/derek73/python-nameparser) - Parsing human names into their individual components.
     * [python-user-agents](https://github.com/selwin/python-user-agents) - Browser user agent parser.
     * [sqlparse](https://github.com/andialbrecht/sqlparse) - A non-validating SQL parser.
@@ -1243,7 +1244,7 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
 *Full stack web frameworks.*
 
 * [Django](https://www.djangoproject.com/) - The most popular web framework in Python.
-    * [awesome-django](https://github.com/rosarior/awesome-django)
+    * [awesome-django](https://github.com/wsvincent/awesome-django)
 * [Flask](http://flask.pocoo.org/) - A microframework for Python.
     * [awesome-flask](https://github.com/humiaozuzu/awesome-flask)
 * [Pyramid](https://pylonsproject.org/) - A small, fast, down-to-earth, open source Python web framework.
